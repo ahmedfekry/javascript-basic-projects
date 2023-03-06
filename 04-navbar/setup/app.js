@@ -3,3 +3,8 @@
 // add - add class
 // remove - remove class
 // toggle - toggles class
+
+document.querySelector(".nav-toggle").addEventListener("click", function () {
+
+  document.querySelector(".links").classList.toggle("show-links");
+});
